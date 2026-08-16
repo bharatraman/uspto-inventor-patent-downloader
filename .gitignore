@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Generated patent packages
+downloads/
+patent-data/
+output/
+*.zip
+*.pdf
+manifest.json
+*.part
+
+# Local backups
+*.bak
+*.tmp
+*~
+
+# Build output
+bin/
+dist/
+coverage.out
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
